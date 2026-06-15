@@ -60,7 +60,7 @@ df_ventas = df_transacciones[df_transacciones['tipo'] == 'VENTA']
 # ==========================================
 st.title("AI.LINO PRO ─── FINANCIAL QUANT ENGINE")
 st.caption(f"ENTORNO DE VALIDACIÓN ESTADÍSTICA | CORTE OPERATIVO: {datetime.now().strftime('%d/%m/%Y %H:%M')}")
-st.hr()
+st.divider()
 
 # ==========================================
 # 4. CAPA DE MÉTRICAS PRINCIPALES (KPI DE ALTO IMPACTO)
